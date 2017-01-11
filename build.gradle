@@ -1,0 +1,13 @@
+apply plugin : 'maven'
+apply plugin : 'java'
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+}
+
+targetCompatibility = '1.6'
+sourceCompatibility = '1.6'
